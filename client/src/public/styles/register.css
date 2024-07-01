@@ -1,0 +1,53 @@
+
+.login-btn{
+    margin-top:-9%;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid green; */
+}
+
+.login-btn button {
+    width: 220px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #55FAE4;
+    border: none;
+    font-weight: 600;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    color: #271E4F;
+    transition: background-color 0.3s ease;
+}
+
+input[type="date"] {
+    width: 100%;
+    height: 80%;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: #525273;
+    color:gray;
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    padding: 8px 10px;
+}
+
+input[type="date"]::placeholder {
+    color: #cccccc;
+}
+
+input[type="date"]:focus {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
